@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const Router = express.Router();
 const { check, validationResult } = require('express-validator');
@@ -56,3 +57,15 @@ Router.post(
 );
 
 module.exports = Router;
+=======
+const express=require('express');
+const Router=express.Router();
+
+
+//@route
+Router.get('/',(req,res)=>{
+    res.send('Users route');
+});
+
+module.exports=Router;
+>>>>>>> 31c91d6492388fcb55b3af019b481efa4f213ca5
