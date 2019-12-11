@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const mongoose = require('mongoose');
 const config = require('config');
 const db = config.get('mongoURI');
@@ -17,20 +16,4 @@ const connectDB = async () => {
   }
 };
 module.exports = connectDB;
-=======
-const mongoose=require('mongoose');
-const config=require("config");
-const db=config.get('mongoURI');
 
-const connectDB=async()=>{
-    try{
-        await mongoose.connect(db,{ useNewUrlParser: true,useUnifiedTopology: true });
-        console.log("MongoDB connected")
-    }
-    catch(err){
-        console.log(err.message)
-        process.exit(1);//exit procees with failure
-    }
-}
-module.exports=connectDB;
->>>>>>> 31c91d6492388fcb55b3af019b481efa4f213ca5

@@ -18,11 +18,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "node server",
-<<<<<<< HEAD
-    "server": "nodemon server"
-=======
     "server":"nodemon server"
->>>>>>> 31c91d6492388fcb55b3af019b481efa4f213ca5
   },
   "author": "Me",
   "license": "MIT"
